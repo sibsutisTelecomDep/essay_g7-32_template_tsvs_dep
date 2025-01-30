@@ -8,7 +8,7 @@
 > Оригинально щаблон подготовлен в Overleaf, но его работоспособность также проверялась на Windows 11 в связке MikTeX + TeXstudio.
 # Написание отчетов\стетей (Latex) в редакторе VSCode
 
-<img src="rmd_img/Overview.png" width="900">
+<img src="./rmd_img/Overview.png" width="900">
 
 Для такого результата необходимо установить:
 
@@ -25,12 +25,12 @@
 
 > Важное замечание! При установке НЕ меняйте стандартный путь установки.
 
-<img src="rmd_img/miktex.png" width="600">
+<img src="./rmd_img/miktex.png" width="600">
 
 После установки, проверить и установить обновления.
 
 
-<img src="rmd_img/miktex_update.png" width="600">
+<img src="./rmd_img/miktex_update.png" width="600">
 
 ### 3. Strawberry Perl
 Устанавливаем крайний релиз [Strawberry Perl](rmd_img/Overview.png), в моем случае - 5.40.0.1.
@@ -40,14 +40,14 @@
 ### 4. Проверка переменных окружения
 После установки MiKTeX и Strawberry Perl переменные окружения должны добавиться самостоятельно, все же, желательно проверить: `System Properties` -> `Advanced` -> `Environment Variables...` -> `System Variables` -> `Path` -> `Edit`.
 
-<img src="rmd_img/system_variables.png" width="400">
+<img src="./rmd_img/system_variables.png" width="400">
 
 
 ### 5. VSCode Extensions: LaTeX Workshop, LaTeX Utilities
 
 Устанавливаем расширения VSCode:
 
-<img src="rmd_img/vscode_extensions.png" width="400">
+<img src="./rmd_img/vscode_extensions.png" width="400">
 
 ### 6. Поддержка latexmk
 В проектах [Overleaf](https://ru.overleaf.com/project) используется верстка `xelatex`, добавим поддержку в VSCode: `CTRL`+`Shift`+`P`, далее ищем `Preferences: Open User Settings (JSON)` в открывшемся файле добавляем строки:
@@ -67,4 +67,4 @@
 
 ## Компиляция, получение PDF
 Переходим в расширение TeX, выполняем команду `Build`, получаем в корневой папке `.pdf-файл` проекта.
-<img src="rmd_img/build.png" width="900">
+<img src="./rmd_img/build.png" width="900">
