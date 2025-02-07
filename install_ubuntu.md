@@ -4,7 +4,7 @@
 Устанавливаем доп. зависимости:
 
 ```sh
-sudo apt install curl
+sudo apt install curl git texlive-science texlive-latex-extra texlive-extra-utils latexmk texlive-publishers texlive-science
 ```
 
 Страница загрузки [MiKTeX](https://miktex.org/download). Устанавливаем для своей версии операционной системы. 
